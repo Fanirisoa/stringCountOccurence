@@ -15,6 +15,8 @@ def main():
 
 if __name__ == '__main__':
 
+    stringset = [i for i in input().split()]
+
     strings_count = int(input())
 
     strings = []
@@ -32,3 +34,6 @@ if __name__ == '__main__':
         queries.append(queries_item)
 
 
+print(stringset)
+print(strings)
+print(queries)

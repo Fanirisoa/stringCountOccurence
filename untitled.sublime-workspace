@@ -1,0 +1,308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 470,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sparseArrayTest.py",
+			"settings":
+			{
+				"buffer_size": 297,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/leafanirisoa/.bash_profile",
+		"/usr/local/Cellar/hadoop/3.1.2/sbin/.bash_profile",
+		"/Users/leafanirisoa/Documents/projetGit/stringCountOccurence/main.py",
+		"/Users/leafanirisoa/Documents/projetGit/fan_web_page/fanirisoa.github.io/cv.html",
+		"/Users/leafanirisoa/Documents/Doc_perso/Creation/CV_lea/CVLeacolone/cv/cv.css",
+		"/Users/leafanirisoa/Documents/Doc_perso/Creation/CV_lea/CVLeacolone/cv/cv.html",
+		"/Volumes/USB DISK/code_used",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/doc/scriptes89.txt",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/buraliste/\\textbf{$N$ Simulations} & \\textbf{15000 & \\textbf",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/buraliste/untitled",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/buraliste/product.csv",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/buraliste/vente.csv",
+		"/Volumes/USB DISK/doc/Fiche Usage Vison Client 360 - PROS_lot1_30042019.docx",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/doc/SMARTLAKE_Dictionnaire_Evenements_INFO_CA.xlsx",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/cabestan_table/Table_cabestan_ebotique.csv",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/Script/resultatPartiel.scala",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/Script/lastVersion.scala",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/Script/restCode.scala",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/docUtil/listColumn.txt",
+		"/Users/leafanirisoa/Documents/DataAll/LaposteData/escale/escale_hxpaaaaa.r1.20190224003016",
+		"/Volumes/USB DISK/code",
+		"/Users/leafanirisoa/.config/texstudio/texstudio.ini",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/docUtil/schemaField.txt",
+		"/Users/leafanirisoa/anaconda3/lib/python3.7/site-packages/pyspark/sql/functions.py",
+		"/Users/leafanirisoa/Documents/projetGit/fraud_detection/.gitnore",
+		"/usr/local/Cellar/spark-2.4.3-bin-hadoop2.7/conf/spark-env.sh",
+		"/usr/local/Cellar/spark-2.4.3-bin-hadoop2.7/conf/spark-defaults.conf.template",
+		"/usr/local/Cellar/apache-zeppelin/0.8.1/libexec/conf/zeppelin-env.sh",
+		"/Users/leafanirisoa/Documents/ProjectAll/LaPoste/Script/Code zeppelin",
+		"/Users/leafanirisoa/.bash_profile.pysave"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sparseArrayTest.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "requirements.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
