@@ -15,25 +15,7 @@ def main():
 
 if __name__ == '__main__':
 
-    stringset = [i for i in input().split()]
-
-    strings_count = int(input())
-
-    strings = []
-
-    for _ in range(strings_count):
-        strings_item = input()
-        strings.append(strings_item)
-
-    queries_count = int(input())
-
-    queries = []
-
-    for _ in range(queries_count):
-        queries_item = input()
-        queries.append(queries_item)
+    strings = [i for i in input().split()]
 
 
-print(stringset)
-print(strings)
-print(queries)
+
