@@ -8,6 +8,7 @@ import re
 import sys
 import argparse
 from sparseArray import *
+
 def parse_arguments():
     
     parser = argparse.ArgumentParser()
@@ -25,14 +26,8 @@ if __name__ == '__main__':
     strings = [i for i in input().split()]
     args = parse_arguments()
     queries = args.alist
+    restype = args.str
     stringsToQueries =  setStringToCompare(queries,strings)
 
 
-    if args.str == 'dic':
-        print(stringsToQueries.matchingStringsToDic())
-    elif args.str == 'vec':
-        print(stringsToQueries.matchingStringsToVec())
-    else:
-        raise Exception("Wrong index")
-
-
+    print(stringsToQueries.matchingStrings(restype))
