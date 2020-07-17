@@ -68,46 +68,18 @@ class setStringToCompare:
         {'yellow': 2, 'green': 0, 'blue': 5, 'red': 4}
 
         """    
-        return dict((x,self.strings.count(x)) for x in set(self.queries))
-
-
-
-    def matchingStrings(self,restype):
-        """ 
-        Customize function matchingStringsToDic : Compare queries and strings and return a dictionary of occurence where 
-            - key[i] : queries[i]  ith element of queries
-            - value[i] : the frequency of occurrence of queries[i] in strings
-
-        :param restype: 
-        :return: an array of integers representing the frequency of occurrence of each query string in strings.
-        :rtype: dict
-
-        :Example:
-        >>> import sparseArray
-        >>> a  = setStringToCompare(['blue', 'red',  'yellow','green'],['blue', 'red', 'blue', 'yellow', 'blue', 'red', 'yellow', 'blue', 'red', 'red', 'blue'])
-        >>> print(a.matchingStringsToDic())
-        {'yellow': 2, 'green': 0, 'blue': 5, 'red': 4}
-
-        """   
-
         len_string = len(self.strings)
         len_queries = len(self.queries)
 
         try:       
-            if  restype == 'dic':
-                resfinal = self.matchingStringsToDic()
-            elif restype == 'vec':
-                resfinal = self.matchingStringsToVec()
+               resfinal = dict((x,self.strings.count(x)) for x in set(self.queries))
         except UnboundLocalError as e:
-            if restype == 'dic' or restype == 'vec' :
-               lg.critical("Please select between 'dic' and 'vec' as type of result")
-            elif (len_string <= 0  and  len_string >= 1000 )  or (len_queries <= 0  and  len_queries >= 1000 ) :
+            if (len_string <= 0  and  len_string >= 1000 )  or (len_queries <= 0  and  len_queries >= 1000 ) :
                lg.critical("The length of queries or string")
             else:
                 lg.critical("Please correct the set of strings to compare")
         else:
             return resfinal
-
 
 
 
