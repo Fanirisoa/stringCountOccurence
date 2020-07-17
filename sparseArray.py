@@ -70,11 +70,4 @@ class setStringToCompare:
         return dict((x,self.strings.count(x)) for x in set(self.queries))
 
 
-dataUsed = setStringToCompare(['blue', 'red',  'yellow','green'],['blue', 'red', 'blue', 'yellow', 'blue', 'red', 'yellow', 'blue', 'red', 'red', 'blue'])
-
-
-
-
-print(dataUsed.matchingStringsToVec())
-print(dataUsed.matchingStringsToDic())
 
