@@ -34,26 +34,39 @@ class setStringToCompare:
 
     
     def matchingStringsToVec(self):
-       """ 
-       Customize function matchingStringsToVec : Compare queries and strings and return  an integer array of occurence.
+        """ 
+        Customize function matchingStringsToVec : Compare queries and strings and return  an integer array of occurence.
         
-        : param e : the column
-        : return  : an array of integers representing the frequency of occurrence of each query string in strings.
-       """
+        :return: an array of integers representing the frequency of occurrence of each query string in strings.
+        :rtype: array[int]
+        
+        :Example:
+        >>> import sparseArray
+        >>> a  = setStringToCompare(['blue', 'red',  'yellow','green'],['blue', 'red', 'blue', 'yellow', 'blue', 'red', 'yellow', 'blue', 'red', 'red', 'blue'])
+        >>> print(a.matchingStringsToVec())
+        [5, 4, 2, 0]
+        """
         countList = []
         for _ in self.queries:
             countList.append(self.strings.count(_))
         return countList   
 
     def matchingStringsToDic(self):
-       """ 
-       Customize function matchingStringsToDic : Compare queries and strings and return a dictionary of occurence where 
+        """ 
+        Customize function matchingStringsToDic : Compare queries and strings and return a dictionary of occurence where 
             - key[i] : queries[i]  ith element of queries
             - value[i] : the frequency of occurrence of queries[i] in strings
-        
-        : param e : the column
-        : return  : an array of integers representing the frequency of occurrence of each query string in strings.
-       """    
+    
+        :return: an array of integers representing the frequency of occurrence of each query string in strings.
+        :rtype: dict
+
+        :Example:
+        >>> import sparseArray
+        >>> a  = setStringToCompare(['blue', 'red',  'yellow','green'],['blue', 'red', 'blue', 'yellow', 'blue', 'red', 'yellow', 'blue', 'red', 'red', 'blue'])
+        >>> print(a.matchingStringsToDic())
+        {'yellow': 2, 'green': 0, 'blue': 5, 'red': 4}
+
+        """    
         return dict((x,self.strings.count(x)) for x in set(self.queries))
 
 
