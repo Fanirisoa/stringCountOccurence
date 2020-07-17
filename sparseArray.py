@@ -47,10 +47,24 @@ class setStringToCompare:
         >>> print(a.matchingStringsToVec())
         [5, 4, 2, 0]
         """
-        countList = []
-        for _ in self.queries:
-            countList.append(self.strings.count(_))
-        return countList   
+
+        len_string = len(self.strings)
+        len_queries = len(self.queries)
+
+        try:       
+            countList = []
+            for _ in self.queries:
+                 countList.append(self.strings.count(_))
+
+        except UnboundLocalError:
+            if (len_string <= 0  and  len_string >= 1000 )  or (len_queries <= 0  and  len_queries >= 1000 ) :
+               lg.critical("The length of queries or string")
+            else:
+                lg.critical("Please correct the set of strings to compare")
+        else:
+            return countList
+
+
 
     def matchingStringsToDic(self):
         """ 
