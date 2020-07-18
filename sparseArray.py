@@ -21,7 +21,7 @@ class setStringToCompare:
         Prints the animals name and what sound it makes
     """
 
-	# définition de la méthode spéciale __init__
+	
     def __init__(self, queries, strings):
         """
         a constructor to initialize the attributes of the class setStringToCompare.

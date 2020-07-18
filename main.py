@@ -4,8 +4,12 @@ import os
 import argparse
 from sparseArray import *
 
+
 def parse_arguments():
-    
+    """ 
+    Parse arguments via the parser variable (list of str).  
+    These arguments will be defined by the user on the console. 
+    """     
     parser = argparse.ArgumentParser()
     parser.add_argument("-q", "--queries", action='store', dest='alist',
                     type=str, nargs='*', default=['str1', 'srt2', 'srt3'],
